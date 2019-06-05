@@ -9,6 +9,12 @@
  
  `git checkout -b <new_branch_name>`
 
+
+- To check the status of you current branch
+
+
+ `git status`
+ 
  
 - Make a commit
 
@@ -59,6 +65,12 @@
  
  `git push --delete origin <branch_name>`
  
+ 
+ - To show commit history on you current branch
+ 
+ `git log`
+ 
+
  
  # Some useful git stash tips
  
