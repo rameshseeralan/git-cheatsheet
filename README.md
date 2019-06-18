@@ -70,7 +70,17 @@
  
  `git log`
  
-
+ 
+ - To change your git remote URL's(fetch & push) repo on your local machine 
+ 
+ 1)View the existing remote URL's
+ `git remote -v`
+ 
+ 2)Change the 'origin' remote URL's
+ `git remote set-url origin `your URL you wish to change to
+ 
+ 3)Verify new remote URL's
+ `git remote -v`
  
  # Some useful git stash tips
  
