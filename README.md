@@ -2,16 +2,15 @@
 
 - To switch branches
 
-`git checkout <branch_name>`
+  `git checkout <branch_name>`
  
  
 - To create a new branch from the current branch you are on  
  
- `git checkout -b <new_branch_name>`
+  `git checkout -b <new_branch_name>`
 
 
 - To check the status of you current branch
-
 
  `git status`
  
@@ -73,17 +72,18 @@
  
  - To change your git remote URL's(fetch & push) repo on your local machine 
  
- 1)View the existing remote URL's
  
- `git remote -v`
- 
- 2)Change the 'origin' remote URL's
- 
- `git remote set-url origin `your URL you wish to change to
- 
- 3)Verify new remote URL's
- 
- `git remote -v`
+   1)View the existing remote URL's
+
+   `git remote -v`
+
+   2)Change the 'origin' remote URL's
+
+   `git remote set-url origin `your URL you wish to change to
+
+   3)Verify new remote URL's
+
+   `git remote -v`
  
  
  # Some useful git stash tips
